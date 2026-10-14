@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+}
+img{
+    width: 100%;
 }
 body{
     background-color: antiquewhite;
@@ -62,4 +65,126 @@ main{
 }
 .main_nav_links li:hover a {
     color: white;
+}
+.sima_nav{
+    margin: 20px 0px;
+}
+.sima_nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.sima_nav ul li{
+    list-style-type: none;
+    background-color: rgb(202, 218, 209);
+    padding: 10px;
+    flex: 1 1 calc(25%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sima_nav ul li:hover{
+    background-color: lightgreen;
+}
+.sima_nav ul li a{
+    text-decoration: none;
+    color: darkslategray;
+    text-align: center;
+}
+header{
+    background-color: darkgreen;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+header div ol{
+    list-style-type: none;
+}
+header div ol li{
+    color: yellowgreen;
+    font-weight: bold;
+
+}
+header div h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    margin-top: 10px;
+}
+.div_1{
+    flex: 0 1 65%;
+}
+.div_1 p{
+    color: white;
+    text-align: justify;
+}
+.div_2{
+    background-color: rgb(68, 104, 68);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(99, 134, 99);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    flex: 0 1 35%;
+}
+.div_2 p{
+    text-align: justify;
+}
+article{
+    box-shadow: 0px 0px 2px rgb(98, 117, 85);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 1 70%;
+}
+.art_head h3{
+    font-weight: bold;
+}
+.tehen{
+    width: 70px;
+}
+.tehenek_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    background-image: linear-gradient(
+        lightblue 50%,
+        lightgreen 50%
+    );
+    height: 200px;
+    border-radius: 20px;
+}
+aside{
+    background-color: rgb(166, 236, 166);
+    border-radius: 15px;
+    padding: 15px;
+    flex: 1 0 200px;
+    height: 100%;
+}
+aside div{
+    background-color: white;
+    padding: 10px;
+    box-shadow: -2px 0px 1px green;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.h_4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.artflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 50px;
 }
